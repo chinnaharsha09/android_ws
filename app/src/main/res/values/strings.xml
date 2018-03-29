@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">Design</string>
+    <string name="choose">Choose One..!</string>
+    <string name="select_options">Select options</string>
+    <string name="budget_hotels">Budget Hotels</string>
+    <string name="luxury_hotels">Luxury Hotels</string>
+    <string name="homestays">Homestays</string>
+    <string name="resorts">Resorts</string>
+    <string name="next">NEXT</string>
 </resources>
