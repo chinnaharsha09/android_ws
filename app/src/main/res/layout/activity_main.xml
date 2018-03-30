@@ -12,18 +12,31 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:padding="@dimen/dimen_8"
-        android:background="@color/theme"
+        android:background="@drawable/bg2"
         android:layout_weight="0.4">
-
-        <TextView
-            android:id="@+id/textView2"
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_gravity="bottom"
-            android:gravity="bottom"
-            android:text="@string/select_options"
-            android:textColor="@android:color/white"
-            android:textAppearance="@style/TextAppearance.AppCompat.Headline" />
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/bg2"
+                android:contentDescription="@string/app_name"/>
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:gravity="bottom"
+                android:layout_marginTop="-40dp"
+                android:text="@string/select_options"
+                android:textColor="@android:color/white"
+                android:textAppearance="@style/TextAppearance.AppCompat.Headline" />
+        </LinearLayout>
+
     </LinearLayout>
 
     <LinearLayout
