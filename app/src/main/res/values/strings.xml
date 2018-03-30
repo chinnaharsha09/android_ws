@@ -7,4 +7,7 @@
     <string name="homestays">Homestays</string>
     <string name="resorts">Resorts</string>
     <string name="next">NEXT</string>
+    <string name="india">India</string>
+    <string name="international">International</string>
+    <string name="regions_i_like">Regions i like</string>
 </resources>

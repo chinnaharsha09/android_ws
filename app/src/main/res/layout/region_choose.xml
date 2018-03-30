@@ -24,7 +24,7 @@
                 android:layout_centerInParent="true"
                 android:contentDescription="@string/app_name"
                 android:scaleType="centerCrop"
-                android:src="@drawable/bg2" />
+                android:src="@drawable/bg" />
 
             <TextView
                 android:id="@+id/textView2"
@@ -34,7 +34,7 @@
                 android:layout_marginTop="-44dp"
                 android:gravity="bottom"
                 android:padding="@dimen/dimen_8"
-                android:text="@string/select_options"
+                android:text="@string/regions_i_like"
                 android:textAppearance="@style/TextAppearance.AppCompat.Headline"
                 android:textColor="@android:color/white" />
         </LinearLayout>
@@ -66,7 +66,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginStart="@dimen/dimen_8"
                     android:layout_marginTop="@dimen/dimen_8"
-                    android:text="@string/select_options"
+                    android:text="@string/regions_i_like"
                     android:textAppearance="@style/TextAppearance.AppCompat.Title"
                     android:visibility="gone"
                     app:layout_constraintStart_toStartOf="parent"
@@ -78,7 +78,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginStart="@dimen/dimen_8"
                     android:layout_marginTop="@dimen/dimen_8"
-                    android:text="@string/budget_hotels"
+                    android:text="@string/india"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/textView" />
 
@@ -88,29 +88,9 @@
                     android:layout_height="wrap_content"
                     android:layout_marginStart="@dimen/dimen_8"
                     android:layout_marginTop="@dimen/dimen_8"
-                    android:text="@string/luxury_hotels"
+                    android:text="@string/international"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/budgetHotel" />
-
-                <CheckBox
-                    android:id="@+id/resorts"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="@dimen/dimen_8"
-                    android:layout_marginTop="@dimen/dimen_8"
-                    android:text="@string/resorts"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/luxuryHotel" />
-
-                <CheckBox
-                    android:id="@+id/homeStays"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="@dimen/dimen_8"
-                    android:layout_marginTop="@dimen/dimen_8"
-                    android:text="@string/homestays"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/resorts" />
 
                 <Button
                     android:id="@+id/next"
@@ -126,6 +106,8 @@
 
             </android.support.constraint.ConstraintLayout>
         </android.support.v7.widget.CardView>
+
+
     </LinearLayout>
 
 </LinearLayout>
