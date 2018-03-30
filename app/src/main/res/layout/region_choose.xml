@@ -61,7 +61,7 @@
                 android:orientation="vertical">
 
                 <TextView
-                    android:id="@+id/textView"
+                    android:id="@+id/textView1"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="@dimen/dimen_8"
@@ -73,27 +73,27 @@
                     app:layout_constraintTop_toTopOf="parent" />
 
                 <CheckBox
-                    android:id="@+id/budgetHotel"
+                    android:id="@+id/india"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="@dimen/dimen_8"
                     android:layout_marginTop="@dimen/dimen_8"
                     android:text="@string/india"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/textView" />
+                    app:layout_constraintTop_toBottomOf="@+id/textView1" />
 
                 <CheckBox
-                    android:id="@+id/luxuryHotel"
+                    android:id="@+id/internatioanl"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="@dimen/dimen_8"
                     android:layout_marginTop="@dimen/dimen_8"
                     android:text="@string/international"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/budgetHotel" />
+                    app:layout_constraintTop_toBottomOf="@+id/india" />
 
                 <Button
-                    android:id="@+id/next"
+                    android:id="@+id/previous"
                     style="@style/Widget.AppCompat.Button.Colored"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
